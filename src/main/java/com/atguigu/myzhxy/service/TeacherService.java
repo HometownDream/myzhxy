@@ -12,5 +12,5 @@ public interface TeacherService extends IService<Teacher> {
     Teacher login(LoginForm loginForm);
 
 
-
+    Teacher getByTeacherById(Long userId);
 }

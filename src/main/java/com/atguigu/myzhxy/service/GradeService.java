@@ -12,5 +12,4 @@ public interface GradeService extends IService<Grade> {
 
     IPage<Grade> getGradeByOpr(Page<Grade> page, String gradeName);
 
-    List<Grade> getGrades();
 }
